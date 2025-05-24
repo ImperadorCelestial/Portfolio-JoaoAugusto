@@ -1,0 +1,98 @@
+
+/* ------------------------------------------------ Body -------------------------------------------- */
+
+.contato-body
+  {
+    background-image: url(../img/wmremove-transformed.png);
+    font-family: 'Josefin Slab', serif;
+  }
+
+html, body
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* ------------------------------------------------ Fontes, tamanhos e cores -------------------------------------------- */
+
+@font-face 
+  {
+    font-family: 'Josefin Slab';
+    src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.h1
+  {
+    color: #ffffff;
+  }
+
+/* ------------------------------------------------ Style Geral -------------------------------------------- */
+
+header 
+  {
+    background-color: #282828;
+    width: 610px; /* igual à box-contato */
+    height: auto;
+    position: fixed;
+    right: 0px; /* igual à box-contato */
+    top: 0px;
+    
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border-left: solid 3px;
+    border-color: #ffffff;
+  }
+
+nav ul
+  {  
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+/* ------------------------------------------------ Botões do header -------------------------------------------- */
+
+.home-button /*O botão de home*/
+  {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+.portfolio-button /*O botão de portfólio*/
+  {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
+.contato-button /*O botão de home*/
+  {
+    color: #F2B63C;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+
+  /* ------------------------------------------------ Box de contato -------------------------------------------- */
+
+  .box-contato 
+  {
+  background-color: #282828;
+  width: 610px;
+  height: 100vh;
+  position: fixed;
+  right: 0px;
+  top: 80px;
+  border-left: solid 3px;
+  border-color: #ffffff;
+  }
+

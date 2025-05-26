@@ -84,8 +84,8 @@ nav ul
 
   /* ------------------------------------------------ Box de contato -------------------------------------------- */
 
-  .box-contato 
-  {
+.box-contato 
+{
   background-color: #282828;
   width: 610px;
   height: 100vh;
@@ -94,5 +94,44 @@ nav ul
   top: 80px;
   border-left: solid 3px;
   border-color: #ffffff;
-  }
+
+  display: flex; /* NOVO */
+    flex-direction: column; /* NOVO */
+    align-items: center; /* NOVO */
+    justify-content: flex-start; /* Opcional: para começar do topo */
+    padding-top: 40px; /* Ajuste opcional */
+}
+
+label 
+{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
+  color: #ffffff;
+}
+
+.input-contato
+{
+  width: 25vw;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #F2B63C;
+}
+
+.informações-para-contato
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagem-input-contato
+{
+  width: 25vw;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #F2B63C;
+}
 

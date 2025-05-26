@@ -20,7 +20,6 @@ nav ul
     color: #ffffff;
     text-decoration: none;
     margin-right: 5vh;
-    margin-left: 8vh;
     font-size: 18px;
   }
 
@@ -42,15 +41,73 @@ nav ul
 
   /* ------------------------------------------------ Fontes, tamanhos e cores -------------------------------------------- */
 
-@font-face 
+  @font-face 
   {
-  font-family: 'Josefin Slab';
-  src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Josefin Slab';
+    src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
   }
 
-.h1
+  @font-face 
   {
-    color: #ffffff;
+    font-family: 'Josefin Slab Bold';
+    src: url('fonts/JosefinSlab-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
   }
+
+  /* ------------------------------------------------ Home -------------------------------------------- */
+
+.h1-home
+{
+  height: 50px;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.h2-home
+{
+  color: #ffffff;
+  text-align: center;
+}
+
+.h2-home-1
+{
+  height: 20px;
+  color: #ffffff;
+  text-align: start;
+  margin-left: 11vw;
+}
+
+/* ------------------------------------------------ Portfólio -------------------------------------------- */
+
+.h1-portfolio
+{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.h1-box
+{
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  height: 10px;
+}
+
+.h2-portfolio
+{
+  color: #ffffff;
+  text-align: center;
+}
+
+.h2-portfolio-2
+{
+  color: #ffffff;
+  text-align: center;
+  font-size: 19px;
+}

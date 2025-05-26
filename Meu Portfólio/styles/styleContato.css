@@ -24,7 +24,15 @@ html, body
     font-style: normal;
   }
 
-.h1
+  @font-face 
+  {
+    font-family: 'Josefin Slab Bold';
+    src: url('fonts/JosefinSlab-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.h1-contato
   {
     color: #ffffff;
   }
@@ -95,14 +103,14 @@ nav ul
   border-left: solid 3px;
   border-color: #ffffff;
 
-  display: flex; /* NOVO */
-    flex-direction: column; /* NOVO */
-    align-items: center; /* NOVO */
-    justify-content: flex-start; /* Opcional: para começar do topo */
-    padding-top: 40px; /* Ajuste opcional */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
 }
 
-label 
+.label 
 {
   display: block;
   margin-bottom: 5px;
@@ -111,27 +119,33 @@ label
   color: #ffffff;
 }
 
-.input-contato
+.input-contato /* Style dos input nome e email */
 {
   width: 25vw;
   padding: 12px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 2px solid #F2B63C;
+  border: 2px solid #ffffff;
 }
 
-.informações-para-contato
-{
-  display: flex;
-  flex-direction: column;
-}
-
-.mensagem-input-contato
+.mensagem-input-contato /* Style do input de mensagem */
 {
   width: 25vw;
   padding: 40px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 2px solid #F2B63C;
+  border: 2px solid #ffffff;
 }
+
+.submit-btn /*Botão de enviar mensagem na tela de contato*/
+{
+  width: 15vw;
+  height: 45px;
+  border-radius: 10px;
+  font-family: 'Josefin Slab Bold', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ------------------------------------------------ Boxes de redes sociais -------------------------------------------- */
 

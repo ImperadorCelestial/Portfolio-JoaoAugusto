@@ -1,0 +1,114 @@
+
+header
+  {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+nav ul
+  {  
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+/* ------------------------------------------------ Botões do header -------------------------------------------- */
+
+.home-button /*O botão de home*/
+  {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 18px;
+  }
+
+.portfolio-button /*O botão de portfólio*/
+  {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 18px;
+  }
+
+.contato-button /*O botão de contato*/
+  {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 18px;
+  }
+
+  /* ------------------------------------------------ Fontes, tamanhos e cores -------------------------------------------- */
+
+  @font-face 
+  {
+    font-family: 'Josefin Slab';
+    src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face 
+  {
+    font-family: 'Josefin Slab Bold';
+    src: url('fonts/JosefinSlab-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* ------------------------------------------------ Home -------------------------------------------- */
+
+.h1-home
+{
+  height: 50px;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.h2-home
+{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.h2-home-1
+{
+  height: 20px;
+  color: #ffffff;
+  text-align: start;
+  margin-left: 11vw;
+}
+
+/* ------------------------------------------------ Portfólio -------------------------------------------- */
+
+.h1-portfolio
+{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.h1-box
+{
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  height: 10px;
+}
+
+.h2-portfolio
+{
+  color: #ffffff;
+  text-align: center;
+}
+
+.h2-portfolio-2
+{
+  color: #ffffff;
+  text-align: center;
+  font-size: 19px;
+}

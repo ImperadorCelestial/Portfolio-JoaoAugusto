@@ -3,7 +3,7 @@
 
 .contato-body
   {
-    background-image: url(../img/wmremove-transformed.png);
+    background-image: url(../img/fundo-contato.png);
     font-family: 'Josefin Slab', serif;
   }
 
@@ -126,7 +126,13 @@ nav ul
   padding: 12px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 3px solid #d6a034;
+  transition: transform 0.3s ease;
+}
+
+.input-contato:hover
+{
+  transform: scale(1.01);
 }
 
 .mensagem-input-contato /* Style do input de mensagem */
@@ -135,7 +141,13 @@ nav ul
   padding: 40px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 3px solid #d6a034;
+  transition: transform 0.3s ease;
+}
+
+.mensagem-input-contato:hover
+{
+  transform: scale(1.01);
 }
 
 .submit-btn /*Botão de enviar mensagem na tela de contato*/
@@ -146,6 +158,13 @@ nav ul
   font-family: 'Josefin Slab Bold', serif;
   font-weight: bold;
   font-size: 18px;
+  border: 3px solid #d6a034;
+  transition: transform 0.3s ease;
+}
+
+.submit-btn:hover
+{
+  transform: scale(1.01);
 }
 
 /* ------------------------------------------------ Boxes de redes sociais -------------------------------------------- */
@@ -160,6 +179,12 @@ nav ul
 .insta-icon
 {
   width: 50px;
+  transition: transform 0.5s ease;
+}
+
+.insta-icon:hover
+{
+  transform: scale(1.05);
 }
 
 .whatsapp-icon
@@ -167,9 +192,21 @@ nav ul
   width: 44px;
   margin-left: 2vw;
   margin-right: 2vw;
+  transition: transform 0.5s ease;
+}
+
+.whatsapp-icon:hover
+{
+  transform: scale(1.05);
 }
 
 .linkedin-icon
 {
   width: 50px;
+  transition: transform 0.5s ease;
+}
+
+.linkedin-icon:hover
+{
+  transform: scale(1.05);
 }

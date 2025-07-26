@@ -1,0 +1,39 @@
+
+.portfolio-body
+{
+    background-color: rgb(28, 28, 28);
+    font-family: 'Josefin Slab', serif;
+}
+
+.portfolio-button /*O botão de home*/
+  {
+    font-size: 30px;
+    color: #F2B63C;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 18px;
+  }
+
+.box-portfolio-pai
+{
+  display: flex;
+  justify-content: center;
+}
+
+.box-PetzLar
+{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  border: 2px solid #F2B63C;
+  border-radius: 15px;
+  background-color: #162C53;
+}
+
+.hr
+{
+  width: 250px;
+  border-color: #F2B63C;
+  background-color: #F2B63C;
+}

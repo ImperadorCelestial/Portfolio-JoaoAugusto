@@ -1,0 +1,42 @@
+
+.home-body
+{
+    background-color: rgb(40, 40, 40);
+    font-family: 'Josefin Slab', serif;
+}
+
+.home-button /*O botão de home*/
+  {
+    font-size: 30px;
+    color: #F2B63C;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-size: 18px;
+  }
+
+.home-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.home-container-1
+{
+  width: 50vw;
+  height: auto;
+  margin: 0px;
+  margin-top: 8vw;
+}
+
+.home-container-2
+{
+  width: 50vw;
+  height: auto;
+}
+
+.photo-home
+{
+  width: 35vw;
+  margin-top: 3vw;
+  margin-left: 7vw;
+}
